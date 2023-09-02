@@ -1,4 +1,9 @@
-## Getting Started
+# webUI
+1. Revise the contract address and ABI in `index.tsx`
+1. `yarn dev`
+1. we can access from http://localhost:3000
+
+<!-- ## Getting Started
 
 Create a project using this example:
 
@@ -37,4 +42,4 @@ You can check out [the thirdweb GitHub organization](https://github.com/thirdweb
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb).
+For any questions, suggestions, join our discord at [https://discord.gg/thirdweb](https://discord.gg/thirdweb). -->
