@@ -3,6 +3,17 @@
 1. `yarn dev`
 1. we can access from http://localhost:3000
 
+## TODO(limitations)
+- [ ] tokenList
+    - to achieve this, there are some possibillities:
+        - based on onchain query
+        - based on offchain database query
+        - based on wallet
+- [ ] authentication
+    - separate the WebUI depending on the actors
+- [ ] attractive UI
+
+
 <!-- ## Getting Started
 
 Create a project using this example:

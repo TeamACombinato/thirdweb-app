@@ -1220,6 +1220,7 @@ export default function Home() {
     console.log(tokenList);
   }
 
+  // 要素:register
   const register =
     <>
       {/* register */}
@@ -1237,6 +1238,7 @@ export default function Home() {
       </div>
     </>
 
+  // 要素:verifyBackdoor
   const verifyBackdoor =
     <>
     <div>
@@ -1253,6 +1255,7 @@ export default function Home() {
     </div>
     </>
 
+  // 画像の切替部
   const Img = () => {
     switch (tokenSlot) {
       case 1:
@@ -1270,6 +1273,7 @@ export default function Home() {
     }
   }
 
+  // 要素:submitResponse
   const submitResponse =
     <>
       {/* submitResponse */}
@@ -1282,6 +1286,7 @@ export default function Home() {
       </div>
     </>
 
+  // 要素:mint
   const mint =
     <>
       {/* mint */}
@@ -1304,6 +1309,8 @@ export default function Home() {
         </Web3Button>
       </div>
     </>
+
+  // 要素:list
   const list =
     <>
       {/* tokenList */}
@@ -1321,6 +1328,7 @@ export default function Home() {
       </div>
     </>
 
+  // 要素:transfer
   const transfer =
     <>
       {/* tokenURI */}
@@ -1332,7 +1340,7 @@ export default function Home() {
           <input type="number" onChange={(e: React.ChangeEvent<HTMLInputElement>) => (setTokenId(Number(e.target.value)))} />
         </p>
         <p>
-          <button onClick={searchTokenURI}> tokenURIを検索 </button>
+          <button onClick={searchTokenURI}> トークン詳細を表示 </button>
         </p>
         <p></p>
         <div dangerouslySetInnerHTML={{ __html: tokenURI }} />
@@ -1359,6 +1367,7 @@ export default function Home() {
       </div >
     </>
 
+  // 要素:common
   const common =
     <>
       {/* Select role */}
@@ -1401,6 +1410,7 @@ export default function Home() {
       </div>
     </>
 
+  // body
   switch (role) {
     case 0: // 管理者
       return (
