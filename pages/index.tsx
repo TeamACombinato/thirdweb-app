@@ -1259,11 +1259,11 @@ export default function Home() {
   const Img = () => {
     switch (tokenSlot) {
       case 1:
-        return <img src="/images/submitResponse1.png" alt="submitResponse" />;
+        return <img width="300" src="/images/submitResponse1.png" alt="submitResponse" />;
       case 2:
-        return <img src="/images/submitResponse2.png" alt="submitResponse" />;
+        return <img width="300" src="/images/submitResponse2.png" alt="submitResponse" />;
       case 3:
-        return <img src="/images/submitResponse3.png" alt="submitResponse" />;
+        return <img width="300" src="/images/submitResponse3.png" alt="submitResponse" />;
       default:
         return (
           <p>
@@ -1370,6 +1370,9 @@ export default function Home() {
   // 要素:common
   const common =
     <>
+      <h1>
+        23区地域クーポン発行基盤
+      </h1>
       {/* Select role */}
       <p>役割を選択<br />
         <input type="radio" name="role" value="2" onChange={(e: React.ChangeEvent<HTMLInputElement>) => setRole(Number(e.target.value))} />ユーザー

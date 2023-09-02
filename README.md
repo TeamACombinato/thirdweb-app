@@ -3,6 +3,10 @@
 1. `yarn dev`
 1. we can access from http://localhost:3000
 
+## 2 dimension code
+2 dimension code on the webUI is created from json on the same folder(public/images).
+Json is created by `README_PolygonId.md`
+
 ## TODO(limitations)
 - [ ] tokenList
     - to achieve this, there are some possibillities:
